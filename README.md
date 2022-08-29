@@ -12,9 +12,9 @@
 *Bootstrap
 
 ### This website is available at the following URL:
-https://francisca-hernandez.github.io/passwordGenerator/
 
 ### Screeenshots
-(/images/Portfolio%20Screenshot.png)
+
+![Main page of Portfolio](/images/Portfolio%20Screenshot.png)
 
 
