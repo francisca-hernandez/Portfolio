@@ -193,7 +193,7 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	background-color: rgba(0,0,0,.1);
-	color: #fff;
+	color: rgb(34, 34, 34);
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -242,13 +242,13 @@ body {
 }
 
 .box-01 .inner {
-	background-image: url('BGphoto2.jpg');
+	background-image: url('CampMeOutside.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-02 .inner {
-	background-image: url('https://picsum.photos/1024/768?image=967');
+	background-image: url('/WorkdayScheduler.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
