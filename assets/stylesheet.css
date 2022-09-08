@@ -1,7 +1,7 @@
 /*Background*/
 
 Body {
-    background-image: url('/images/BGphoto4.jpg');
+    background-image: url('BGphoto5.jpg');
     color:rgb(247, 247, 247)
 
 
@@ -10,7 +10,7 @@ Body {
 
 div.container-fluid {
     float: right;
-    color: #f2f2f2;
+    color: #c9bdbd;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
