@@ -1,7 +1,7 @@
 /*Background*/
 
 Body {
-    background-image: url('BGphoto.jpg');
+    background-image: url('/images/BGphoto4.jpg');
     color:rgb(247, 247, 247)
 
 
@@ -28,3 +28,5 @@ li {list-style-type: none;
 
 li a {color:rgb(247, 245, 241);
 }
+
+
