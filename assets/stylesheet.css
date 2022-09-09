@@ -2,24 +2,14 @@
 
 Body {
     background-image: url('BGphoto5.jpg');
-    color: rgb(247, 247, 247)
-        /*Top Navigation Bar*/
-}
+    color: rgb(247, 247, 247);
+	Background-size:cover
 
-div.container-fluid {
-    float: right;
-    color: #c9bdbd;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    list-style: none;
-    display: inline-block;
+      
 }
 
 
-
-/* nav styling */
+/* nav bar styling */
 li {
     list-style-type: none;
     display: inline-block;
@@ -71,81 +61,18 @@ nav a {
     color: #263238
 }
 
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
 
-    nav ul {
-        flex-direction: column;
-        padding-top: 0.5rem;
-    }
-
-    nav li {
-        padding: 0.5rem 0;
-    }
-}
-
-/* Contact me Footer */
+/* Footer Contact info */
 div.column {
-    text-align: center;
-}
-
-medium {
-    font-size: 20px;
-    color: rgb(30, 16, 60);
-    text-decoration: underline;
-}
-
-h1#contactme.footer.bd-notifications.is-multiline.is-mobile {
-
-    text-align: center;
-}
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-footer {
-
-    margin: 400px;
+	margin-bottom: 400px;
     position: center;
     /* negative value of footer height */
-    height: 180px;
+    height: 100px;
     clear: both;
+	font-weight:bolder;
+	color: black;
 
+	/* goole fonts and title */
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
 body {
@@ -165,7 +92,7 @@ body {
 	font-weight: 300;
 	line-height: 120%;
 	margin: 20px 0;
-	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-shadow: 0 1px 5px rgba(250, 246, 246, 0.733);
 	text-transform: uppercase;
 }
 
@@ -179,6 +106,8 @@ body {
 .test_box {
 	padding: 0;
 }
+
+/* box Content */
 .test_box .inner {
 	background: #333;
 	display: block;
@@ -224,7 +153,7 @@ body {
 	margin-top: -5px;
 }
 
-.test_title {
+.box_title {
 	display: block;
 	font-weight: 700;
 	margin: 0 0 20px;
@@ -241,6 +170,7 @@ body {
 	text-transform: uppercase;
 }
 
+/* Box photos */
 .box-01 .inner {
 	background-image: url('CampMeOutside.jpg');
 	background-position: 50% 50%;
@@ -248,31 +178,31 @@ body {
 	background-size: cover;
 }
 .box-02 .inner {
-	background-image: url('/WorkdayScheduler.jpg');
+	background-image: url('FH\ pic.JPG');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-03 .inner {
-	background-image: url('https://picsum.photos/1024/768?image=924');
+	background-image: url('WorkdayScheduler.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-04 .inner {
-	background-image: url('https://picsum.photos/1024/768?image=1073');
+	background-image: url('BGphoto3.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-05 .inner {
-	background-image: url('https://picsum.photos/1024/768?image=1032');
+	background-image: url('PasswordGen.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-06 .inner {
-	background-image: url('https://picsum.photos/1024/768?image=1080');
+	background-image: url('BGphoto4.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
