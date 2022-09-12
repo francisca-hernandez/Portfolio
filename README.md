@@ -17,6 +17,6 @@ https://francisca-hernandez.github.io/Portfolio/
 
 ### Screeenshots
 
-![Main page of Portfolio](/images/Portfolio%20Screenshot.png)
+![Main page of Portfolio](/assets/Mainpage.jpg)
 
 
